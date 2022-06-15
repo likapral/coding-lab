@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Section of languages</title>
+	<link rel="stylesheet" type="text/css" href="Java css/JAVA1para.css">
+	<link rel="shortcut icon" href="img/LOGO.JPEG">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<div class="glavnaya">
+		
+    <div class="back-button">
+        <a href="java.html" class="btn">&#8592; Back to the lessons page</a>
+    </div>
+
+	<div class="content">
+		<h1>Java</h1>
+	</div>
+
+    <div class="lessons-part">
+
+        <div class="lessons-links">
+            <a href="JAVA1para.html#operators-lesson">#1 Operators in Java</a>
+        </div>
+
+        <div class="lessons-links">
+            <a href="JAVA1para.html#variables-lesson">#2 Variables in Java</a>
+        </div>
+
+        <div class="lessons-links">
+            <a href="JAVA1para.html#loops-lesson">#3 Loops in Java</a>
+        </div>
+
+        <div class="lessons-links">
+            <a href="JAVA1para.html#arrays-lesson">#4 Arrays in Java</a>
+        </div>
+
+        <div class="lessons-links">
+            <a href="JAVA1para.html#strings-lesson">#5 Strings in Java</a>
+        </div>
+
+        <div class="lessons-links">
+            <a href="JAVA1para.html#oop-lesson">#6 Object-Oriented Programming Concept in Java</a>
+        </div>
+
+    </div>
+
+    <!-- 1st LESSON -->
+	<div class="operators-intro-part" id="operators-lesson">
+        <h2>#1 Operators.</h2>
+		<p>Java provides many types of operators which can be used according to the need. <br> They are classified based on the functionality they provide. Some of the types are:</p>
+        
+        <div class="operators-type">
+            <a href="JAVA1operators.html#ArithmeticOperators">1. Arithmetic Operators</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#UnaryOperators">2. Unary Operators</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#AssignmentOperator">3. Assignment Operator</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#RelationalOperators">4. Relational Operators</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#LogicalOperators">5. Logical Operators</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#TernaryOperator">6. Ternary Operator</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#BitwiseOperators">7. Bitwise Operators</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#ShiftOperators">8. Shift Operators</a>
+        </div>
+
+        <div class="operators-type">
+            <a href="JAVA1operators.html#InstanceOfOperator">9. Instance of operator</a>
+        </div>
+
+    </div>
+
+	<div class="content-text" id="ArithmeticOperators">
+		<h3>Let's take a look at them in detail. </h3>
+	</div>
+
+    <div class="type-1">
+        <p>Watch the video below to understand:</p>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tx1QIp0P6W8">
+        </iframe>
+
+        <h3>1. Arithmetic Operators: </h3>
+        <p>They are used to perform simple arithmetic operations on primitive data types. </p>
+        <p>* : Multiplication <br>
+            / : Division <br>
+            % : Modulo <br>
+            + : Addition <br>
+            – : Subtraction</p>
+    </div>
+
+    <div class="type-2" id="UnaryOperators">
+        <h3>2. Unary Operators:</h3>
+        <p>Unary operators need only one operand. They are used to increment, decrement or negate a value. </p>
+        <p>– : Unary minus, used for negating the values. <br>
+            + : Unary plus indicates the positive value (numbers are positive without this, however). <br> It performs an automatic conversion to int when the type of its operand is the byte, char, or short. <br> This is called unary numeric promotion.
+            <br> ++ : Increment operator, used for incrementing the value by 1. There are two varieties of increment operators. <br>
+            Post-Increment: Value is first used for computing the result and then incremented. <br>
+            Pre-Increment: Value is incremented first, and then the result is computed.
+            <br> — : Decrement operator, used for decrementing the value by 1. There are two varieties of decrement operators. <br>
+            Post-decrement: Value is first used for computing the result and then decremented. <br>
+            Pre-Decrement: Value is decremented first, and then the result is computed.
+            <br> ! : Logical not operator, used for inverting a boolean value.</p>
+    </div>
+
+    <div class="type-3" id="AssignmentOperator">
+        <h3>3. Assignment Operator:</h3>
+        <p>'=' Assignment operator is used to assign a value to any variable. It has a right to left associativity, <br> i.e. value given on the right-hand side of the operator is assigned to the variable on the left, and therefore right-hand side <br> value must be declared before using it or should be a constant. </p>
+        <p>The general format of the assignment operator is:</p>
+        <p>variable = value;</p>
+
+        <p>In many cases, the assignment operator can be combined with other operators to build a shorter version of the statement <br> called a Compound Statement. For example, instead of a = a+5, we can write a += 5. </p>
+        <p>+=, for adding left operand with right operand and then assigning it to the variable on the left. <br>
+            -=, for subtracting right operand from left operand and then assigning it to the variable on the left. <br>
+            *=, for multiplying left operand with right operand and then assigning it to the variable on the left. <br>
+            /=, for dividing left operand by right operand and then assigning it to the variable on the left. <br>
+            %=, for assigning modulo of left operand by right operand and then assigning it to the variable on the left.</p>
+    </div>
+
+    <div class="type-4" id="RelationalOperators">
+        <h3>4. Relational Operators:</h3>
+        <p> These operators are used to check for relations like equality, greater than, less than. They return boolean results after the <br> comparison and are extensively used in looping statements as well as conditional if-else statements. </p>
+        
+        <p>The general format is:</p>
+        <p>variable relation_operator value</p>
+        <p>Some of the relational operators are -</p>
+        <p>==, Equal to: returns true if the left-hand side is equal to the right-hand side. <br>
+            !=, Not Equal to: returns true if the left-hand side is not equal to the right-hand side. <br>
+            <, Less than: returns true if the left-hand side is less than the right-hand side. <br>
+            <=, Less than or equal to returns true if the left-hand side is less than or equal to the right-hand side. <br>
+            >, Greater than: returns true if the left-hand side is greater than the right-hand side. <br>
+            >=, Greater than or equal to: returns true if the left-hand side is greater than or equal to the right-hand side.</p>
+    </div>
+
+    <div class="type-5" id="LogicalOperators">
+        <h3>5. Logical Operators:</h3>
+        <p>These operators are used to perform “logical AND” and “logical OR” operations, i.e., the function similar to AND gate and OR gate <br> in digital electronics. One thing to keep in mind is the second condition is not evaluated if the first one is false, i.e., <br> it has a short-circuiting effect. Used extensively to test for several conditions for making a decision. <br> Java also have “Logical NOT”, it returns true when condition is false and vice-versa.</p>
+        <p>The general format of the assignment operator is:</p>
+        <p>variable = value;</p>
+
+        <p>In many cases, the assignment operator can be combined with other operators to build a shorter version of the statement <br> called a Compound Statement. For example, instead of a = a+5, we can write a += 5. </p>
+        <p>+=, for adding left operand with right operand and then assigning it to the variable on the left. <br>
+            -=, for subtracting right operand from left operand and then assigning it to the variable on the left. <br>
+            *=, for multiplying left operand with right operand and then assigning it to the variable on the left. <br>
+            /=, for dividing left operand by right operand and then assigning it to the variable on the left. <br>
+            %=, for assigning modulo of left operand by right operand and then assigning it to the variable on the left.</p>
+    </div>
+
+    <div class="type-6" id="TernaryOperator">
+        <h3>6. Ternary operator:</h3>
+        <p>Ternary operator is a shorthand version of the if-else statement. It has three operands and hence the name ternary.</p>
+        <p>The general format is:</p>
+        <p>condition ? if true : if false</p>
+
+        <p>In many cases, the assignment operator can be combined with other operators to build a shorter version of the statement <br> called a Compound Statement. For example, instead of a = a+5, we can write a += 5. </p>
+        <p>+=, for adding left operand with right operand and then assigning it to the variable on the left. <br>
+            -=, for subtracting right operand from left operand and then assigning it to the variable on the left. <br>
+            *=, for multiplying left operand with right operand and then assigning it to the variable on the left. <br>
+            /=, for dividing left operand by right operand and then assigning it to the variable on the left. <br>
+            %=, for assigning modulo of left operand by right operand and then assigning it to the variable on the left.</p>
+    </div>
+
+    <div class="type-7" id="BitwiseOperators">
+        <h3>7. Bitwise Operators: </h3>
+        <p>These operators are used to perform the manipulation of individual bits of a number. They can be used with any of the integer types. <br> They are used when performing update and query operations of the Binary indexed trees. </p>
+
+        <p>&, Bitwise AND operator: returns bit by bit AND of input values. <br>
+            |, Bitwise OR operator: returns bit by bit OR of input values. <br>
+            ^, Bitwise XOR operator: returns bit by bit XOR of input values. <br>
+            ~, Bitwise Complement Operator: This is a unary operator which returns the one's complement representation of <br> the input value, i.e., with all bits inverted.</p>
+    </div>
+
+    <div class="type-8" id="ShiftOperators">
+        <h3>8. Shift Operators:</h3>
+        <p>These operators are used to shift the bits of a number left or right, thereby multiplying or dividing the number by two, <br> respectively. They can be used when we have to multiply or divide a number by two. </p>
+        <p>General format:</p>
+        <p>number shift_op number_of_places_to_shift;</p>
+
+        <p> &#10094;&#10094;, Left shift operator: shifts the bits of the number to the left and fills 0 on voids left as a result. Similar effect as of multiplying <br> the number with some power of two. <br>
+            &#10095;&#10095;, Signed Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost <br> bit depends on the sign of the initial number. Similar effect as of dividing the number with some power of two. <br>
+            &#10095;&#10095;&#10095;, Unsigned Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. <br> The leftmost bit is set to 0.</p>
+    </div>
+
+    <div class="type-9" id="InstanceOfOperator">
+        <h3>9. instanceof operator: </h3>
+        <p>The instance of the operator is used for type checking. It can be used to test if an object is an instance of a class, <br> a subclass, or an interface.</p>
+        <p>General format:</p>
+        <p>object instance of class/subclass/interface</p>
+    </div>
+
+    <div class="content-text2">
+		<h3>Precedence and Associativity of Operators</h3>
+	</div>
+
+    <div class="textaftertypes">
+        <p>Precedence and associative rules are used when dealing with hybrid equations involving more than <br> one type of operator. In such cases, these rules determine which part of the equation to consider first, <br> as there can be many different valuations for the same equation. The below table depicts the precedence <br> of operators in decreasing order as magnitude, with the top representing the highest precedence and <br> the bottom showing the lowest precedence.</p>
+    </div>
+
+    <!-- 1st LESSON END-->
+
+    <!-- 2nd LESSON -->
+
+    <div class="lessonvariables" id="variables-lesson">
+
+        <h2>#2 Variables.</h2>
+
+        <p>Variable in Java is a data container that saves the data values during Java program execution. <br> Every variable is assigned a data type that designates the type and quantity of value it can hold. Variable is a memory location <br> name of the data.
+        </p>
+
+        <p>A variable is a name given to a memory location. It is the basic unit of storage in a program.</p>
+
+        <ul class="variables-bullets">
+            <li>The value stored in a variable can be changed during program execution.</li>
+            <li>A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.</li>
+            <li>In Java, all the variables must be declared before use.</li>
+        </ul>
+
+        <p>Watch the video below to understand:</p>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/so1iUWaLmKA">
+        </iframe>
+
+    </div>
+    <!-- 2nd lesson END -->
+
+    <!-- 3rd lesson -->
+
+    <div class="lessonloops" id="loops-lesson">
+
+        <h2>#3 Loops.</h2>
+
+        <p>Looping in programming languages is a feature which facilitates the execution of a set of instructions/functions repeatedly <br> while some condition evaluates to true. Java provides three ways for executing the loops. While all the ways provide similar <br> basic functionality, they differ in their syntax and condition checking time.
+        </p>
+
+        <p>Watch the video below to understand:</p>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/LGn-NhUzb6Q">
+        </iframe>
+
+    </div>
+
+    <!-- 3rd LESSON END-->
+
+    <!-- 4th lesson -->
+    <div class="lessonarrays" id="arrays-lesson">
+
+        <h2>#4 Arrays.</h2>
+
+        <p>An array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than <br> they do in C/C++. Following are some important points about Java arrays. 
+        </p>
+
+        <ul class="arrays-bullets">
+            <li>In Java, all arrays are dynamically allocated.</li>
+            <li>Since arrays are objects in Java, we can find their length using the object property length. <br> This is different from C/C++, where we find length using sizeof.
+            </li>
+            <li>A Java array variable can also be declared like other variables with [] after the data type.</li>
+            <li>The variables in the array are ordered, and each has an index beginning from 0.</li>
+            <li>Java array can be also be used as a static field, a local variable, or a method parameter.</li>
+            <li>The size of an array must be specified by int or short value and not long.</li>
+            <li>The direct superclass of an array type is Object.</li>
+            <li>Every array type implements the interfaces Cloneable and java.io.Serializable.</li>
+        </ul>
+
+        <p>
+            An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition <br> of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class <br> objects, the actual objects are stored in a heap segment. 
+        </p>
+
+        <p>Watch the video below to understand:</p>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/hAk7abWHi3w">
+        </iframe>
+
+    </div>
+    <!-- 4th LESSON END-->
+
+    <!-- 5th lesson -->
+
+    <div class="lessonstrings" id="strings-lesson">
+
+        <h2>#5 Strings.</h2>
+    
+        <p>Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable(cannot grow), <br> Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created. 
+        </p>
+    
+        <p>Watch the video below to understand:</p>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/N63JCXwdd14">
+        </iframe>
+    
+    </div>
+    
+    <!-- 5th LESSON END-->
+
+    <!-- 6th lesson -->
+
+    <div class="lessonoop" id="oop-lesson">
+
+        <h2>#6 Object-Oriented Programming in Java.</h2>
+    
+        <p>As the name suggests, Object-Oriented Programming or OOPs refers to languages that uses objects in programming. <br> Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism etc in programming. <br> The main aim of OOP is to bind together the data and the functions that operate on them so that no other part <br> of the code can access this data except that function. 
+        </p>
+    
+        <p>Watch the video below to understand:</p>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/6T_HgnjoYwM">
+        </iframe>
+    
+    </div>
+    
+    <!-- 6th LESSON END-->
+
+	</div>
+
+	<!-- FOOTER -->
+	<footer id="contact">
+		<p>Girls On Balloon</p>
+		<p>How you doin'?
+			(Call me) my name is Lonely, nice to meet you
+			Here's my number</p>
+        <div class="social">
+            <a href="https://youtu.be/dQw4w9WgXcQ"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/zhanmsayaa/"><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-telegram"></i></a>
+        </div>
+        <p class="end">@ CopyRight By Girls On Balloon (AITU'24)</p>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,462 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #010202;
+}
+
+.glavnaya {
+	background-image: url(/img/JavaMAINPara.png);
+	background-size: cover;
+	height: 113vh;
+	width: 100%;
+	background-position: center;
+}
+
+.btn{
+	background-color:#6ca8e5;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 25px;
+	border-radius: 15px;
+	transition: transform .4s; 
+}
+
+.btn:hover{
+	transform: scale(1.2);
+	background-color: #a468d8;
+	color: #fff;
+}
+
+.back-button {
+	margin-top: 50px;
+	margin-left: 1200px;
+}
+
+.content {
+	position: absolute;
+	text-align: left;
+	top: 60%;
+	left: 46%;
+	transform: translateY(-50%);
+}
+
+.content h1{
+	color: #a468d8;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+	text-shadow: 0 0 15px #a468d8;
+}
+
+.content-text h3{
+	color: #7EFF86;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 220px;
+}
+
+/* list urokov nachalo */
+
+
+.lessons-part {
+	margin-left: 220px;
+	margin-top: 400px;
+}
+
+.lessons-part p {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 700px;
+}
+
+
+.lessons-links a {
+	color: #a468d8;
+	font-size: 25px;
+	text-decoration: underline #a468d8;
+	text-shadow: 0 0 15px #a468d8,
+	0 0 20px #a468d8;
+}
+
+.lessons-links a:hover {
+	color: #a468d8;
+	font-size: 30px;
+	text-decoration: underline #a468d8;
+	text-shadow: 0 0 15px #a468d8,
+	0 0 20px #a468d8;
+}
+
+.lessons-links {
+	margin-top: 20px;
+}
+
+/* list urokov konec */
+
+/* links types of operators */
+
+
+.operators-intro-part {
+	margin-left: 220px;
+	margin-top: 100px;
+}
+
+.operators-intro-part p {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+.operators-intro-part h2 {
+	color: #7EFF86;
+	margin-top: 10px;
+	font-size: 45px;
+	text-shadow: 0 0 20px #7EFF86;
+}
+
+.operators-type a {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: underline #fff;
+}
+
+.operators-type a:hover {
+	color: #7EFF86;
+	font-size: 20px;
+	text-decoration: underline #7EFF86;
+}
+
+.operators-type {
+	margin-top: 20px;
+}
+
+.type-1 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 220px;
+}
+
+.type-1 p {
+	margin-top: 20px;
+}
+
+.type-1 h3 {
+	color: #7EFF86;
+	margin-top: 35px;
+}
+
+.type-2 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-2 p {
+	margin-top: 20px;
+}
+
+.type-2 h3 {
+	color: #7EFF86
+}
+
+.type-3 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-3 p {
+	margin-top: 20px;
+}
+
+.type-3 h3 {
+	color: #7EFF86
+}
+
+.type-4 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-4 p {
+	margin-top: 20px;
+}
+
+.type-4 h3 {
+	color: #7EFF86
+}
+
+.type-5 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-5 p {
+	margin-top: 20px;
+}
+
+.type-5 h3 {
+	color: #7EFF86
+}
+
+.type-6 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-6 p {
+	margin-top: 20px;
+}
+
+.type-6 h3 {
+	color: #7EFF86
+}
+
+.type-7 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-7 p {
+	margin-top: 20px;
+}
+
+.type-7 h3 {
+	color: #7EFF86
+}
+
+.type-8 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-8 p {
+	margin-top: 20px;
+}
+
+.type-8 h3 {
+	color: #7EFF86
+}
+
+.type-9 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.type-9 p {
+	margin-top: 20px;
+}
+
+.type-9 h3 {
+	color: #7EFF86
+}
+
+.content-text2 h3{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 220px;
+}
+
+.textaftertypes {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 70px;
+	margin-left: 220px;
+}
+
+.textaftertypes p {
+	margin-top: 20px;
+}
+
+/* end links of operators */
+
+/* 2nd lesson */
+.lessonvariables {
+	margin-left: 220px;
+	margin-top: 100px;
+}
+
+.lessonvariables h2 {
+	color: #7EFF86;
+	margin-top: 10px;
+	font-size: 45px;
+	text-shadow: 0 0 20px #7EFF86;
+}
+
+.lessonvariables p {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.variables-bullets {
+	color: #fff;
+	margin-left: 80px;
+	font-size: 20px;
+	margin-top: 25px;
+}
+/* 2nd lesson END */
+
+/* 3rd lesson */
+.lessonloops {
+	margin-left: 220px;
+	margin-top: 100px;
+}
+
+.lessonloops h2 {
+	color: #7EFF86;
+	margin-top: 10px;
+	font-size: 45px;
+	text-shadow: 0 0 20px #7EFF86;
+}
+
+.lessonloops p {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+/* 3rd lesson END */
+
+/* 4th lesson */
+.lessonarrays {
+	margin-left: 220px;
+	margin-top: 100px;
+}
+
+.lessonarrays h2 {
+	color: #7EFF86;
+	margin-top: 10px;
+	font-size: 45px;
+	text-shadow: 0 0 20px #7EFF86;
+}
+
+.lessonarrays p {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.arrays-bullets {
+	color: #fff;
+	margin-left: 80px;
+	font-size: 20px;
+	margin-top: 25px;
+}
+/* 4th lesson END */
+
+/* 5th lesson */
+.lessonstrings {
+	margin-left: 220px;
+	margin-top: 100px;
+}
+
+.lessonstrings h2 {
+	color: #7EFF86;
+	margin-top: 10px;
+	font-size: 45px;
+	text-shadow: 0 0 20px #7EFF86;
+}
+
+.lessonstrings p {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+/* 5th lesson END */
+
+/* 6th lesson */
+.lessonoop {
+	margin-left: 220px;
+	margin-top: 100px;
+}
+
+.lessonoop h2 {
+	color: #7EFF86;
+	margin-top: 10px;
+	font-size: 45px;
+	text-shadow: 0 0 20px #7EFF86;
+}
+
+.lessonoop p {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+}
+/* 6th lesson END */
+
+/* FOOTER */
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #7b7b7b;
+	margin-top: 8000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: #fff;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #fff;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: #422a57;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#fff;
+	bottom: 35px;
+	font-size: 14px; 
+}
+/* FOOTER END */
